@@ -35,7 +35,7 @@
 # login to ecr aws ecr get-login --no-include-email --region ap-northeast-1 | sh
 ###############################################
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8-jdk
 
 MAINTAINER Fergus MacDermot <fergusmacdermot@gmail.com>
 
